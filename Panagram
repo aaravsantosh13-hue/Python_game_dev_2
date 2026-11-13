@@ -1,0 +1,11 @@
+word = str(input("Type any sentance."))
+Alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+for i in Alphabet :
+    if i not in word.lower() :
+        print("Not a panagram!")
+        break
+else:
+        print("This sentance is a panagram!")
+
+        
