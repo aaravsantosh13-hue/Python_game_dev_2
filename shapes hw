@@ -1,0 +1,13 @@
+import pgzrun
+import random
+
+WIDTH = 800
+HEIGHT = 800
+
+my_rectangle = Rect((250, 300), (300, 200))
+
+def draw():
+    screen.clear()
+    screen.draw.filled_rect(my_rectangle, "White")
+
+pgzrun.go()
